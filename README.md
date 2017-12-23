@@ -1,8 +1,8 @@
 # one_hots_with_window
 creates one hot vectors with corresponding labels based on window size
-This algorithm is espicailly useful for setting up a skip gram word2vector model, but can be used for other one hot binary classifcaiton tasks where they may be more than one output as well. 
-Example of what algorithm does:
+This algorithm is espicailly useful for setting up a skip gram word2vector neural network, but can be used for other one hot binary classifcaiton tasks where they may be more than one output as well. 
 
+Example of what algorithm does:
 Here we have 5 words in a sentence that we put in a dictionry where the keys are the words and the values are the integers assigned to their respective words:
 dict = {'Joe's.': 0, 'haircut.': 1, 'resembles.': 2, 'pubic': 3, 'hair': 4}
 
